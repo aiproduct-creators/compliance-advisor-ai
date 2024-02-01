@@ -42,7 +42,7 @@ To run this application, you need to have Python 3.8 or higher installed on your
     ```
 - Copy the `.env.example` file to a new file named `.env` and set your OPENAI API key:
     ```
-    OPENAI_API_KEY='your_api_key_here'
+    OPENAI_KEY='your_api_key_here'
     ```
 - Run the application:
     ```
@@ -73,7 +73,7 @@ To run this application, you need to have Python 3.8 or higher installed on your
     ```
 - Copy the `.env.example` file to a new file named `.env` and set your OPENAI API key:
     ```
-    OPENAI_API_KEY='your_api_key_here'
+    OPENAI_KEY='your_api_key_here'
     ```
 - Run the application:
     ```
