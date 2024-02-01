@@ -13,14 +13,8 @@ Regulatory Compliance AI Advisor is a sophisticated web application crafted to a
 
 ## Installation
 
-To run this application, you need to have Python 3.8 or higher installed on your system. Additionally, you'll need to obtain a Cohere API key and store it securely. Follow these steps to set up and run the application:
+To run this application, you need to have Python 3.8 or higher installed on your system. Additionally, you'll need to obtain a OpenAI API key and store it securely. Follow these steps to set up and run the application:
 
-### Getting a Cohere API Key
-
-- Visit the Cohere website at [https://cohere.com](https://cohere.com).
-- Sign up for an account or log in if you already have one.
-- Navigate to the API keys section and generate a new API key.
-- Store this API key in the `.env` file as described in the next steps.
 
 ### Setup Instructions
 
@@ -46,9 +40,9 @@ To run this application, you need to have Python 3.8 or higher installed on your
     ```
     pip install -r requirements.txt
     ```
-- Copy the `.env.example` file to a new file named `.env` and set your Cohere API key:
+- Copy the `.env.example` file to a new file named `.env` and set your OPENAI API key:
     ```
-    CO_API=your_api_key_here
+    OPENAI_API_KEY='your_api_key_here'
     ```
 - Run the application:
     ```
@@ -77,9 +71,9 @@ To run this application, you need to have Python 3.8 or higher installed on your
     ```
     pip install -r requirements.txt
     ```
-- Copy the `.env.example` file to a new file named `.env` and set your Cohere API key:
+- Copy the `.env.example` file to a new file named `.env` and set your OPENAI API key:
     ```
-    CO_API=your_api_key_here
+    OPENAI_API_KEY='your_api_key_here'
     ```
 - Run the application:
     ```
